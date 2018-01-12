@@ -1,0 +1,1 @@
+The development plan for our recreation of the classic game Snake.

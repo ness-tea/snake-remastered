@@ -1,0 +1,50 @@
+\documentclass[12pt]{article}
+\begin {document}
+\section* {Board Module}
+
+\subsection* {Exported Access Programs}
+
+\begin{tabular}{| l | p{5cm} | l | l |}
+\hline
+\textbf{Routine name} & \textbf{In} & \textbf{Out} & \textbf{Exceptions}\\
+\hline
+Board & ~ & Board & ~\\
+\hline
+setDelay & int & ~ & NegativeIntegerException\\
+\hline
+loadImages & ~ & ~ & FileNotFoundException\\
+\hline
+initGame & ~ & ~ & ~\\
+\hline
+reset & ~ & Board & ~\\
+\hline
+paintComponent & Graphics & ~ & InvalidGraphicsException\\
+\hline
+gameOver & Graphics & ~ & InvalidGraphicsException\\
+\hline
+checkPellet & ~ & ~ & ~\\
+\hline
+move & ~ & ~ & ~\\
+\hline
+checkCollision & ~ & ~ & InterruptedException\\
+\hline
+locatePellet & ~ & ~ & ~\\
+\hline
+actionPerformed & ~ & ~ & ~\\
+\hline
+\end{tabular}
+
+
+\section* {Snake Module}
+\subsection* {Exported Acess Programs}
+
+\begin{tabular}{| l | p{5cm} | l | l |}
+\hline
+\textbf{Routine name} & \textbf{In} & \textbf{Out} & \textbf{Exceptions}\\
+\hline
+Snake & ~ & Snake & ~\\
+\hline
+main & ~ & ~ & ~\\
+\hline
+\end{tabular}
+\end {document}
